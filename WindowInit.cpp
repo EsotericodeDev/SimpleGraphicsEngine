@@ -1,5 +1,4 @@
 #include "WindowInit.hpp"
-#include <GLFW\glfw3.h>
 
 GLFWwindow* init_window() {
 	// Set hints for window creation
