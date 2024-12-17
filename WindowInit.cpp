@@ -1,6 +1,6 @@
 #include "WindowInit.hpp"
 
-GLFWwindow* init_window() {
+GLFWwindow* init_window(unsigned int SCR_WIDTH, unsigned int SCR_HEIGHT) {
 	// Set hints for window creation
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
